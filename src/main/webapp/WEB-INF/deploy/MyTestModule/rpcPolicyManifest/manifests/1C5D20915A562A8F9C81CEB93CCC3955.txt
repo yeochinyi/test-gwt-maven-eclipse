@@ -1,0 +1,2 @@
+serviceClass: com.test.client.StockPriceService
+path: DCF566EE2C6D02F3B43F871A7C0A525F.gwt.rpc

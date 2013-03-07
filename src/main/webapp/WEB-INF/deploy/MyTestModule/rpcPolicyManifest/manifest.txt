@@ -1,0 +1,4 @@
+# Module MyTestModule
+# RPC service class, partial path of RPC policy file
+com.test.client.StockPriceService, DCF566EE2C6D02F3B43F871A7C0A525F.gwt.rpc
+com.test.client.GreetingService, B338285BB91CE8921A27FE6C3AE53FF0.gwt.rpc
