@@ -3,7 +3,11 @@ package com.test.client;
 import java.io.Serializable;
 
 public class StockPrice implements Serializable {
-	 private String symbol;
+	 /**
+	 * 
+	 */
+	private static final long serialVersionUID = -3553284986005428301L;
+	private String symbol;
 	  private double price;
 	  private double change;
 

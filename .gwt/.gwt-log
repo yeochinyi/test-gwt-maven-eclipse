@@ -2672,3 +2672,53 @@ Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
          Generating method body for defCurrencyCode()
    Adding '3' new generated units
       Removing invalidated units
+Public resources found in...
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\com\google\gwt\gwt-servlet\2.5.1\gwt-servlet-2.5.1.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\com\google\gwt\gwt-user\2.5.1\gwt-user-2.5.1.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\org\json\json\20090211\json-20090211.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\junit\junit\4.7\junit-4.7.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA-sources.jar is neither a directory nor an archive (.jar or .zip)
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   30% complete (ETR: 8 seconds)
+   30% complete (ETR: 8 seconds)
+   30% complete (ETR: 8 seconds)
+   30% complete (ETR: 8 seconds)
+   40% complete (ETR: 8 seconds)
+   50% complete (ETR: 6 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 16.80 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\com\google\gwt\gwt-servlet\2.5.1\gwt-servlet-2.5.1.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\com\google\gwt\gwt-user\2.5.1\gwt-user-2.5.1.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\org\json\json\20090211\json-20090211.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\junit\junit\4.7\junit-4.7.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA-sources.jar is neither a directory nor an archive (.jar or .zip)
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\com\google\gwt\gwt-servlet\2.5.1\gwt-servlet-2.5.1.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\com\google\gwt\gwt-user\2.5.1\gwt-user-2.5.1.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\org\json\json\20090211\json-20090211.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\junit\junit\4.7\junit-4.7.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar is neither a directory nor an archive (.jar or .zip)
+   Unexpected entry in classpath; C:\Users\Chris\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA-sources.jar is neither a directory nor an archive (.jar or .zip)
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0.00 seconds
+Removing invalidated units
+Finding entry point classes
