@@ -15,6 +15,7 @@ the License.
 -->
 <html>
 <head>
+<meta http-equiv='Content-Type' content='text/html;charset=utf-8'>
 <meta name='gwt:onLoadErrorFn' content='junitOnLoadErrorFn'>
 <meta name='gwt:onPropertyErrorFn' content='junitOnPropertyErrorFn'>
 </head>
@@ -22,7 +23,7 @@ the License.
 <script language='javascript'>
 <!--
 function junitOnLoadErrorFn(moduleName) {
-  junitError('Failed to load module "' + moduleName +
+  junitLaunchError('Failed to load module "' + moduleName +
     '".\nPlease see the log for details.');
 }
 
@@ -34,23 +35,30 @@ function junitOnPropertyErrorFn(propName, allowedValues, badValue) {
     msg += '" was not specified';
   }
   msg += 'Allowed values: ' + allowedValues;
-  junitError(msg);
+  junitLaunchError(msg);
 }
 
-function junitError(msg) {
+function junitLaunchError(msg) {
+  junitError("/launch", msg);
+}
+
+function junitError(type, msg) {
   var xmlHttpRequest = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
-  xmlHttpRequest.open('POST', 'junithost/loadError', true);
+  xmlHttpRequest.open('POST', 'junithost/error' + type, true);
   xmlHttpRequest.setRequestHeader('Content-Type', 'text/x-gwt-rpc; charset=utf-8');
   xmlHttpRequest.send(msg);
+  if (window.console && window.console.log) {
+    window.console.log(type + " error: " + msg);
+  }
 }
 
 function loadSelectionScript() {
-  var moduleName = document.location.href;
+  var moduleName = location.pathname;
   var pos = moduleName.lastIndexOf('/');
   moduleName = moduleName.substr(0, pos);
   pos = moduleName.lastIndexOf('/');
   moduleName = moduleName.substr(pos + 1);
-  document.write("<script language='javascript' src='" + moduleName + ".nocache.js'></script>");
+  document.write('<script language="javascript" src="' + encodeURIComponent(moduleName) + '.nocache.js"><\/script>');
 }
 loadSelectionScript();
 -->

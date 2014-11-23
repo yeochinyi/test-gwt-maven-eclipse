@@ -1,5 +1,8 @@
 package com.test.client;
 
+import java.util.List;
+
+import com.google.gwt.user.client.rpc.IsSerializable;
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 
@@ -8,5 +11,5 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
  */
 @RemoteServiceRelativePath("greet")
 public interface GreetingService extends RemoteService {
-  String greetServer(String name) throws IllegalArgumentException;
+	<T extends IsSerializable> List<T> greetServer(List<T> name) throws IllegalArgumentException;
 }
